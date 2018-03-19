@@ -1,0 +1,90 @@
+body {
+  display: flex-inline;
+  text-align: center;
+  background: url("photo.jpg") no-repeat fixed;
+  background-size: cover;
+  min-width: 900px;
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* ----------------- HEADER ------------ */
+h1 {
+  font-family: Chewy;
+  font-size: 70px;
+  padding: 0;
+  margin: 20px;
+}
+
+/* -------------- MAIN --------------- */
+/* --- MENU --- */
+h2 {
+  font-family: Chewy;
+  font-size: 24px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  color: MediumVioletRed;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.flex-container {
+  display:flex;
+  height: 520px;
+  width: 800px;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /*align-content: stretch;*/
+  align-items: center top;
+  border: 8px solid MediumVioletRed;
+  border-radius: 26px;
+}
+
+#menu {
+  width: 200px;
+  background-color: LavenderBlush;
+  border-radius: 20px 0px 0px 20px;
+  padding: 10px 30px;
+}
+
+
+
+/* --- GRID --- */
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+tr {
+    height: 25px;
+}
+
+td {
+    width: 25px;
+}
+
+#grid {
+  width: 600px;
+  background-color: White;
+  border-radius: 0px 20px 20px 0px;
+  padding: 10px;
+}
+
+/* -------- FOOTER ---------- */
